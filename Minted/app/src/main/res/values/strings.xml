@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Minted</string>
+    <string name="titleLabel">I am Rich!</string>
+    <string name="gear_image">this a set of gears to be used as the homepage icon</string>
+</resources>
+
