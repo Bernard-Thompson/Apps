@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<head>
+	
+	<link type="text/css" rel="stylesheet" href="css/seyfarth.css"/>
+	<SCRIPT TYPE="text/javascript">
+<!--
+function dropdown(mySel)
+{
+var myWin, myVal;
+myVal = mySel.options[mySel.selectedIndex].value;
+if(myVal)
+   {
+   if(mySel.form.target)myWin = parent[mySel.form.target];
+   else myWin = window;
+   if (! myWin) return true;
+   myWin.location = myVal;
+   }
+return false;
+}
+//-->
+
+</SCRIPT>
+
+</head>
+<div align="right"><a class="button" href="Seyvoteadmin1.html">
+				HOME 
+             </a ><a align="right" class="button" href="index.html">LOG OUT</a></div>
+			 <img src="img/sey.png" align="center" width="100px" height="100px"/>
+			 
+<h1>
+	
+	
+	<div align="center">
+		<p style="font-family: sans-serif; font-size: 36px">4</p>
+	</div>
+</h1>
+<body>
+	
+	<div align="center" style= "background-color: white; data-role="fieldcontain">  
+<label for="url"><strong>Topic: </strong></label>  
+          <input class="required" id="topic" name="uid_r" type="text" value=""></br></br>
+<FORM ACTION="../cgi-bin/redirect.pl" METHOD=POST onSubmit="return dropdown(this.gourl)" MULTIPLE>
+	<label for="url"><strong>Partners: </strong></label><SELECT NAME="gourl">
+		<OPTION VALUE="">Select...
+		<OPTION VALUE="">Sedale
+		<OPTION VALUE="">Tanikka
+		<OPTION VALUE="">Jermane
+		<OPTION VALUE="">Noah
+		<OPTION VALUE="">Bernard
+		<OPTION VALUE="">James
+		<OPTION VALUE="">Cylk
+	</SELECT>
+</FORM></br>
+<form action="demo_form.asp"><strong>
+  Quorum Value: </strong><input type="text" name="usrname" maxlength="5"><br>
+
+</form>
+<form action="action_page.php">
+<label for="url"><strong>Open Date: </strong></label>  
+          <input class="required" id="topic" name="uid_r" type="text" value=""></br>
+<label for="url"><strong>Close Date: </strong></label>  
+          <input class="required" id="topic" name="uid_r" type="text" value=""></br>
+</form>
+        </div></br></br></br></br></br></br></br>
+	
+	<body>
+
+
+
+
+
+
+</body>
+</body>
+</html>

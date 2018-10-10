@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<head>
+	
+	<link type="text/css" rel="stylesheet" href="css/seyfarth.css"/>
+	<SCRIPT TYPE="text/javascript">
+<!--
+function dropdown(mySel)
+{
+var myWin, myVal;
+myVal = mySel.options[mySel.selectedIndex].value;
+if(myVal)
+   {
+   if(mySel.form.target)myWin = parent[mySel.form.target];
+   else myWin = window;
+   if (! myWin) return true;
+   myWin.location = myVal;
+   }
+return false;
+}
+//-->
+
+</SCRIPT>
+
+</head>
+
+<div align="right"><a href="Seyvoteadmin1.html">
+				<img src="img/Seyfarth_Diversity_new1.png"; align="left" width="150px" height="50px" /> 
+             </a ><a align="right" class="button" href="index.html">Log Out</a></div></br></br></br></br></br></br></br></br>
+			
+<h1>
+	
+	
+	<text align="center">
+		<h1 style="font-family: sans-serif; font-size: 36px"></h1>
+	</text>
+</h1>
+<body>
+	
+	<div align="center" style= "background-color: white; data-role="fieldcontain">  
+<label for="url"><strong>Agenda: </strong></label>  
+          <input class="required" id="topic" name="uid_r" type="text" value=""></br></br>
+<FORM ACTION="../cgi-bin/redirect.pl" METHOD=POST onSubmit="return dropdown(this.gourl)" MULTIPLE>
+	<label for="url"><strong>Candidates: </strong></label><SELECT NAME="gourl">
+		<OPTION VALUE="">Select...
+		<OPTION VALUE="">Sedale
+		<OPTION VALUE="">Tanikka
+		<OPTION VALUE="">Jermane
+		<OPTION VALUE="">Noah
+		<OPTION VALUE="">Bernard
+		<OPTION VALUE="">James
+		<OPTION VALUE="">Cylk
+	</SELECT>
+</FORM></br>
+
+<form action="demo_form.asp"><strong>
+  Set Quorum: </strong><input type="text" name="usrname" maxlength="5"><br>
+
+</form>
+<form action="action_page.php">
+Open date:<br>
+<input type="date" name="bday" max="2015-02-18"><br>
+Close date<br>
+<input type="date" name="bday" min="2015-01-02"><br> 
+</form>
+        </div></br></br></br></br>
+	<div align="center">
+		<a class="button" href="a_are_you_sure.html">Submit</a>
+	</div>
+	
+</html>

@@ -1,0 +1,51 @@
+<div id="login">
+	<form name="login" action="index_submit" method="get" accept-charset="utf-8">
+		<ul>  
+			<li> 
+			<input type="email" id="myEmail" name="usermail" placeholder="email" required></li>  <p></p>
+			<li>
+			<input type="password" name="password" placeholder="******" required></li>  <p> </p>
+			<li>  
+			<input id ="blue" style="opacity: 1" type="submit" value="Log in"></li>  
+		</ul>  
+	</form>
+</div>
+
+
+<script type="text/javascript">
+	
+	function formSubmit (argument) {
+		
+		var myValue = $('#myEmail').val();
+
+		if(myValue=="user@seyfarthshaw.com"){
+			location.href="user1.html";
+		} else if(myValue=="admin@seyfarthshaw.com"){
+			location.href="Seyvoteadmin1.html";
+		} else { 
+			alert( "Try Again or Contact Help Desk" );
+			// default
+		}
+
+	}
+
+	function bindFormEvents() {
+		$('#blue').click(function(e) {
+			// set formSubmit function for blue button
+			window.formSubmit();
+			
+			// kill behavior
+			e.stopPropagation();
+			e.preventDefault();
+		});
+	}
+
+	$(document).ready(function() {
+		bindFormEvents();
+	});
+	</script>
+
+	</script>
+ 
+
+ <script type="text/javascript" src="main.js"></script>
