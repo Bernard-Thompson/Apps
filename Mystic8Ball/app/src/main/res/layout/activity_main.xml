@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#26ade0"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/askButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="37dp"
+        android:text="@string/askbuttontext"
+        android:textColor="@android:color/background_light"
+        tools:background="@color/colorPrimaryDark"
+        tools:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/textBanner"
+        android:layout_width="277dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="61dp"
+        android:text="@string/bannerMessage"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageEightBall"
+        android:layout_width="wrap_content"
+        android:layout_height="396dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="101dp"
+        app:srcCompat="@drawable/ball1_3x" />
+
+
+</RelativeLayout>

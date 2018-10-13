@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Mystic 8 Ball</string>
+    <string name="askbuttontext">Ask Away</string>
+    <string name="bannerMessage">Make everyday decisions easier!</string>
+</resources>
