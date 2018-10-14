@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">"Path By Friends "</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home_calendar">HomeCalendarActivity</string>
+    <string name="title_activity_user_sgn_up">UserSgnUpActivity</string>
+
+</resources>

@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.products.moonlight.pathbyfriends.UserSignUpActivity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="User Name"
+        android:ems="10"
+        android:id="@+id/UserSignUp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="71dp" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="Email"
+        android:ems="10"
+        android:id="@+id/UserEmail"
+        android:layout_below="@+id/UserSignUp"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:ems="10"
+        android:id="@+id/UserPassword"
+        android:layout_below="@+id/UserEmail"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ready Up!"
+        android:id="@+id/RegisterButton"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/UserPassword"
+        android:layout_alignStart="@+id/UserPassword"
+        android:onClick="goToCalendarClick"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log In"
+        android:id="@+id/ToLogin"
+        android:layout_alignTop="@+id/RegisterButton"
+        android:layout_alignRight="@+id/UserPassword"
+        android:layout_alignEnd="@+id/UserPassword"
+        android:onClick="goToLoginClick" />
+
+</RelativeLayout>
