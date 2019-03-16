@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Java Quizz</string>
+
+    <string name="true_button">True</string>
+    <string name="false_button">False</string>
+    <string name="initial_score">Score 0/14 </string>
+
+
+    <string name="incorrect_toast">Oh so close!</string>
+    <string name="correct_toast">You got it!</string>
+
+    <string name="question_1">Sam refer\'s to other characters as bitches 1d4th of the time.</string>
+    <string name="question_2">Goose has a slight bias for women with fair skin and blue eyes.</string>
+    <string name="question_3">Approximately one quarter of human bones are in the feet.</string>
+    <string name="question_4">Our group tends to act first and think later</string>
+    <string name="question_5">In West Virginia, USA, if you accidentally hit an animal with your car, you are free to take it home to eat.</string>
+    <string name="question_6">In London, UK, if you happen to die in the House of Parliament, you are technically entitled to a state funeral, because the building is considered too sacred a place.</string>
+    <string name="question_7">It is illegal to pee in the Ocean in Portugal.</string>
+    <string name="question_8">Most of us are jerks though almost never socially sober.</string>
+    <string name="question_9">Google was originally called \"Backrub\".</string>
+    <string name="question_10">Since Duncan is a reincarnated viking he would love to some day lead a nation.</string>
+    <string name="question_11">The loudest sound produced by any animal is 188 decibels. That animal is the African Elephant.</string>
+    <string name="question_12">No piece of square dry paper can be folded in half more than 7 times.</string>
+    <string name="question_13">One day the three of us will start/run our own community</string>
+    <string name="question_14">One day Xochitl will command an army of cats</string>
+
+</resources>
