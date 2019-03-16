@@ -1,4 +1,4 @@
-# Simple jizz application
+# Simple javaQuizz application
 
 This is a simple application used to study questions related to a subject
 
