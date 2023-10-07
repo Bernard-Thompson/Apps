@@ -1,4 +1,4 @@
-# An expense tracker app with google firebase cloud storage
+# An expense tracker app with cloud storage
 
 This is an adroid application make with kotlin as well implementing cloud storage
 
